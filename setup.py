@@ -1,3 +1,7 @@
-x = "Hello World"
+import tkinter as tk
 
-print(x)
+root = tk.Tk()
+w = tk.Label(root, text="Test")
+w.pack()
+root.mainloop()
+
